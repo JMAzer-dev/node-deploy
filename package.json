@@ -9,6 +9,7 @@
  "scripts": {
   "dev": "tsx src/server.ts",
   "postinstall": "prisma generate",
+  "build": "prisma generate && <actual-build-command>",
   "test": "echo \"Error: no test specified\" && exit 1",
   "start": "node dist/server.js"
  },
