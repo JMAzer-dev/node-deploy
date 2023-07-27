@@ -30,7 +30,7 @@ app.post("/users", async (request, replay) => {
 
 app
  .listen({
-  host: "0.0.0.0",
+  host: "https://node-deploy-jmazer.vercel.app/",
   port: Number(process.env.PORT),
  })
  .then(() => {
